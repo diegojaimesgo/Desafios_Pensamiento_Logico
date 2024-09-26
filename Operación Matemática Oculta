@@ -1,12 +1,5 @@
 // Dada una lista de números para sumar. Se debe sumar y restar como resultado
 
-function suma_resta(){
-    5+4
-    8+2
-    10+8
-    12+9
-    18+2
-    21+5
-};
-
-console.log suma_resta()
+export function solution(num1, num2) {
+  return parseInt(`${num1 - num2}${num1 + num2}`)
+}
